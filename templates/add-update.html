@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Contact - Phonebook Application</title>
+  <style>
+    body {
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+
+    .main-container {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      margin-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      padding: 15px 25px;
+      margin: 15px 0;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 20px; /* Oval kenarlar */
+      transition: background-color 0.3s;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    input {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 15px;
+      margin: 20px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+      border-radius: 20px; /* Oval kenarlar */
+    }
+
+    .footnote {
+      color: #2980b9;
+      font-style: italic;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #333;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Büyük Kapsayıcı -->
+  <div class="main-container">
+    <h1>Add Contact</h1>
+    <h2>Welcome to {{developer_name}}'s Phonebook Application</h2>
+
+    <!-- Form Kapsayıcı Kutusu -->
+    <div class="container">
+      <h2>Add New Contact</h2>
+      <form action="#" method="post">
+        <input type="text" name="username" placeholder="Full Name" required />
+        <input type="text" name="phonenumber" placeholder="Phone Number" required />
+        <button type="submit">Add Contact</button>
+      </form>
+    </div>
+
+    <p class="footnote"><i>This app is developed in Python by <b>{{ developer_name }}</b> and deployed with Flask on AWS Cloud using CloudFormation Service.</i></p>
+  </div>
+</body>
+
+</html>
