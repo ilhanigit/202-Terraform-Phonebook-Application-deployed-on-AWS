@@ -126,11 +126,11 @@ thousand                         Warning -> 'Invalid input: Phone number should 
 
 ## Expected Outcome
 
-![Phonebook App Main Page](./Screenshot_2.png)
+![Phonebook App Main Page](./Index.png)
 
-![Phonebook App Add Page](./Screenshot_3.png)
+![Phonebook App Add Page](./Add.png)
 
-![Phonebook App Delete Page](./Screenshot_4.png)
+![Phonebook App Delete Page](./Delete.png)
 
 ### At the end of the project, following topics are to be covered;
 
